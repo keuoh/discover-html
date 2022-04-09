@@ -1,0 +1,245 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+
+  background: #191816;
+}
+.logo {
+  position: absolute;
+  width: 115px;
+  height: 28px;
+  left: 40px;
+  top: 40px;
+}
+.form-background {
+  position: absolute;
+  width: 572px;
+  height: 512px;
+  left: 74px;
+  top: 194px;
+
+  background: #24221f;
+  border-radius: 4px;
+}
+header {
+  position: absolute;
+  width: 334px;
+  height: 64px;
+  left: -34px;
+  top: -216px;
+}
+.email {
+  position: absolute;
+  width: 335px;
+  height: 73px;
+  left: 193px;
+  top: 340px;
+}
+.password {
+  position: absolute;
+  width: 335px;
+  height: 73px;
+  left: 193px;
+  top: 433px;
+}
+checkbox {
+  position: absolute;
+  width: 106px;
+  height: 20px;
+  left: 193px;
+  top: 526px;
+}
+.forget {
+  position: absolute;
+  width: 153px;
+  height: 21px;
+  left: 325px;
+  bottom: 187px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffc632;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+
+  position: absolute;
+  width: 334px;
+  height: 51px;
+  left: 118px;
+  bottom: 114px;
+
+  background: #ffc632;
+  border-radius: 4px;
+}
+.register {
+  position: absolute;
+  width: 235px;
+  height: 21px;
+  left: 200px;
+  bottom: 87px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffc632;
+}
+.side-image {
+  position: absolute;
+  width: 720px;
+  height: 900px;
+  left: 720px;
+  top: 0px;
+}
+h1 {
+  position: absolute;
+  width: 176px;
+  height: 36px;
+  left: 227px;
+  top: 249px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #d4ccb6;
+}
+p {
+  position: absolute;
+  width: 334px;
+  height: 23px;
+  left: 193px;
+  top: 290px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #afb6c2;
+}
+.label-email {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  left: -74px;
+  bottom: 253px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #afb6c2;
+}
+.input-email {
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: -76px;
+  bottom: 200px;
+  background: transparent;
+
+  border: 1px solid #ffc632;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 2px #ffde88;
+  border-radius: 4px;
+}
+.label-password {
+  position: absolute;
+  width: 52px;
+  height: 24px;
+  left: -74px;
+  bottom: 259px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #afb6c2;
+}
+.input-password {
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: -76px;
+  bottom: 210px;
+  background: transparent;
+
+  border: 1px solid #868686;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.label-checkbox {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  left: 147px;
+  bottom: 187px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #a9afb9;
+}
+.input-checkbox {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 113px;
+  bottom: 184px;
+  background: transparent;
+
+  border: 1px solid #868686;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.img-login {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 193px;
+  top: 272px;
+}
+.img-email {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 219px;
+  top: -160px;
+}
+.img-lock {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 220px;
+  top: -169px;
+}

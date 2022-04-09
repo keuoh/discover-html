@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="login-new.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./images/logo.svg" />
+    </div>
+    <div class="form-background">
+      <header>
+        <img class="img-login" src="./images/log-in.svg" />
+        <h1>Faça seu login</h1>
+        <p>Entre com suas informações de cadastro</p>
+      </header>
+      <div class="email">
+        <img class="img-email" src="./images/mail.svg" />
+        <label class="label-email" for="email">E-mail</label>
+        <input
+          class="input-email"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+        />
+      </div>
+      <div class="password">
+        <img class="img-lock" src="./images/lock.svg" />
+        <label class="label-password" for="password">Senha</label>
+        <input
+          class="input-password"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Digite sua senha"
+        />
+      </div>
+      <label class="label-checkbox" for="checkbox">Lembre-me</label>
+      <input
+        class="input-checkbox"
+        type="checkbox"
+        id="checkbox"
+        name="checkbox"
+      />
+      <a class="forget">Esqueci minha senha</a>
+      <button>Entrar</button>
+      <a class="register">Não tem uma conta?<strong>Registre-se</strong></a>
+    </div>
+    <div class="side-image">
+      <img src="./images/side-image.jpg" />
+    </div>
+  </body>
+</html>
